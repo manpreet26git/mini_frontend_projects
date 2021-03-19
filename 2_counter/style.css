@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: black;
+}
+
+main{
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.font_weight-700{
+    font-weight: 700;
+}
+
+.font_weight-300{
+    font-weight: 300;
+}
+
+.counter_text{
+    font-size: 4rem;
+}
+
+.counter_count{
+    font-size:6rem;
+}
+
+.counter_buttons{
+    margin-top:0.75em;
+}
+
+.counter_button + .counter_button{
+    margin-left:1em;
+}
+
+.counter_button{
+    padding:0.25em 0.5em;
+    border: 3px black solid;
+    border-radius: 5px;
+}
+
+.selected_button{
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: black;
+    
+}
+.selected_button a{
+    color: white;
+}
